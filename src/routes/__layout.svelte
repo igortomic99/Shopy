@@ -26,6 +26,8 @@
 	});
 </script>
 
+<svelte:head><title>Shopy</title></svelte:head>
+
 <NavigarionBar />
 <div class="p-8 max-w-6xl mx-auto">
 	<slot />
