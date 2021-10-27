@@ -1,38 +1,74 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+### Built With
 
-## Creating a project
+* [Svelte](https://svelte.dev/)
+* [Firebase](https://firebase.google.com/)
+* [FakeStore API](https://fakestoreapi.com/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
 
-> Note: the `@next` is temporary
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Developing
+This is tiny project I built while i was learning Svelte adn it is shop e commerce app created using SvelteKit, TailWindCSS and Firebase.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Prerequisites
 
-```bash
-npm run dev
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Installation
 
-## Building
+1. Clone the repo
+   ```sh
+   git clone https://github.com/igortomic99/shopy.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Create env.ts file and export firebaseConfig provided from firebase
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-```bash
-npm run build
-```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Igor Tomic - itomic41@gmail.com
+
+Project Link: [https://github.com/igortomic99/shopy](https://github.com/igortomic99/shopy)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
