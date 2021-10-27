@@ -12,8 +12,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is tiny project I built while i was learning Svelte adn it is shop e commerce app created using SvelteKit, TailWindCSS and Firebase.
 
 ### Prerequisites
 
