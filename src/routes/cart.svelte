@@ -65,6 +65,7 @@
 	</div>
 	<div>
 		<h2 class="text-lg mt-5 float-right">Total price: {totalPrice}e</h2>
+		<a href="/checkout" class="text-lg mt-5 float-left">Checkout</a>
 	</div>
 {:else}
 	<h2 class="text-lg mt-10 text-center">You dont have any items in cart</h2>

@@ -32,6 +32,11 @@
 	});
 </script>
 
+<svelte:head>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</svelte:head>
+
+
 <div class="flex items-center justify-center mt-20 ">
 	<div class="w-full max-w-sm mx-auto">
 		<form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -54,6 +59,9 @@
 					bind:value={password}
 				/>
 			</div>
+			<div>
+				<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+			</div>
 			<div class="flex items-center justify-between">
 				<button
 					class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
@@ -73,3 +81,4 @@
 		<p class="text-center text-gray-500 text-xs">&copy;2021 Shopy. All rights reserved.</p>
 	</div>
 </div>
+
